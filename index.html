@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tejal Ganvir – Senior Frontend Engineer</title>
+    <meta
+      name="description"
+      content="Tejal Ganvir, Senior Frontend Engineer with 9+ years building large-scale React and TypeScript applications."
+    />
+    <meta property="og:title" content="Tejal Ganvir – Senior Frontend Engineer" />
+    <meta
+      property="og:description"
+      content="9+ years building large-scale React and TypeScript applications, from Ernst & Young's global engagement platform to AI-assisted developer tooling."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/tejal-ganvir.webp" />
+    <meta name="theme-color" content="#0b1120" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script>
+      // Dark is the default look. Apply a saved choice before first paint so the page never flashes.
+      (function () {
+        var t;
+        try { t = localStorage.getItem("theme"); } catch (e) {}
+        document.documentElement.dataset.theme = t === "light" ? "light" : "dark";
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
