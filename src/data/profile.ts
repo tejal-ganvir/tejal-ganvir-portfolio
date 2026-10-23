@@ -21,7 +21,7 @@ export const profile = {
     "I build large-scale React and TypeScript applications that stay fast, accessible and easy to maintain, from Ernst & Young's global engagement platform to AI-assisted tooling that cut my team's development time by about 30%.",
   status: "Module Lead at Happiest Minds Technologies",
   location: "Pune, India",
-  heroTech: ["React", "TypeScript", "Redux Toolkit", "WebSockets", "Jest", "Playwright"],
+  heroTech: ["React", "TypeScript", "JavaScript", "Redux Toolkit", "Jest", "Playwright"],
 
   email: "tejal.ganveer@gmail.com",
   // Your phone number is left off the public site on purpose. Add it here only if you want it shown.
